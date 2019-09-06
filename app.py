@@ -56,4 +56,4 @@ def usersJson():
     datos.append({'Firstname':lis[i][0],'Lastname':lis[i][1],'Username':lis[i][2],'Email':lis[i][3],'Password':lis[i][4]})
   return jsonify(datos)
  
-app.run(debug=True, host="0.0.0.0")
+app.run(debug=True, host="0.0.0.0", port=80)
